@@ -15,3 +15,11 @@ Huckvale et al. (2019) found that only 25 of 36 top-ranked health apps had a pri
 Gray et al. (2018) classify manipulative interface designs into five types: nagging, obstruction, sneaking, interface interference and forced action. Mathur et al. (2019) found such patterns widespread across thousands of shopping websites.
 
 Both studies concern persuasion towards purchases, not habit tracking, and a missing privacy notice is not itself a dark pattern - its relevance is as a checklist: in Part 2 we can test whether DoHabit’s reward pop-ups nag or pressure users.
+
+## Behaviour influence and rewards (Issue 3)
+
+Zhu et al. (2024) reviewed 41 articles on digital habit-formation interventions and identified techniques such as self-monitoring, goal setting, prompts, cues, and virtual rewards, which closely align with DoHabit’s streaks and achievements. Renfree et al. (2016) found that streaks and reminders in a habit app helped users repeat behaviours but created dependency, so users who left the app often dropped the behaviour too.
+
+Lally et al. (2010) studied habit formation in real life. They found that the time to form a habit varied widely and that missing a single opportunity did not materially affect the process. This sits uneasily with streak mechanics, which treat a missed day as a loss.
+
+Together with Wieczorek et al.’s warnings about self-perception, these sources suggest that rewards may support users’ goals but could also create unnecessary pressure. None show how DoHabit affects its real users, so we treat this as a design risk.
