@@ -23,3 +23,7 @@ Zhu et al. (2024) reviewed 41 articles on digital habit-formation interventions 
 Lally et al. (2010) studied habit formation in real life. They found that the time to form a habit varied widely and that missing a single opportunity did not materially affect the process. This sits uneasily with streak mechanics, which treat a missed day as a loss.
 
 Together with Wieczorek et al.’s warnings about self-perception, these sources suggest that rewards may support users’ goals but could also create unnecessary pressure. None show how DoHabit affects its real users, so we treat this as a design risk.
+
+## Accessibility (Issue 4)
+
+We found no research on accessibility in small local apps. However, the WebAIM Million found WCAG 2 failures on 95.9% of the top one million home pages, most often low-contrast text (WebAIM, 2026), so such failures are common even on large sites. The Web Content Accessibility Guidelines 2.2 (W3C, 2023) organise requirements under four principles (perceivable, operable, understandable, and robust) and provide testable criteria for keyboard operation, focus visibility, and contrast, so we use them as our benchmark.
