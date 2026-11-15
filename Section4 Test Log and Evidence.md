@@ -2,7 +2,7 @@
 
 *Behavioural Influence & Ethical Theories · DoHabit ethics coursework Part 2*
 
-- **App tested:** DoHabit web app ([dohabit.app](https://dohabit.app)), open-source code at [github.com/iNikAnn/DoHabit](https://github.com/iNikAnn/DoHabit)
+- **App tested:** DoHabit web app ([dohabit.app](https://dohabit.app))
 - **Testing started:** 16 November 2026, ~00:20 (Malaysia time)
 - **Browser:** Google Chrome, separate test profile
 - **Screenshots:** [`S4-evidence/`](S4-evidence/)
@@ -21,9 +21,9 @@
 
 **Still to do**
 
-- [ ] I Swear I Did It!: reach 5 uses of "Done Y'day" in total and screenshot the pop-up
-- [ ] Missed-day test, 17–19 Nov (plan in section 5)
-- [ ] Scroll the full Achievements list and screenshot the locked achievements and hints
+I Swear I Did It!: reach 5 uses of "Done Y'day" in total and screenshot the pop-up
+Missed-day test, 17–19 Nov (plan in section 5)
+Scroll the full Achievements list and screenshot the locked achievements and hints
 
 ## 2. Where streaks, badges and progress appear (S4-T1)
 
