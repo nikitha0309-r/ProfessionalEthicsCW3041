@@ -78,39 +78,3 @@ Scroll the full Achievements list and screenshot the locked achievements and hin
 | Interface interference | Partly – mocking wording on some achievements |
 | Forced action | Absent – the pop-up dims the screen but closes by clicking outside it |
 
-## Appendix – Screenshots
-
-### S4-T1 Where rewards appear
-![Home screen, 3 habits, streak 0](S4-evidence/S4-T1-16Nov-home-3-habits-streak0.png)
-![Statistics – drink water, streak 0](S4-evidence/S4-T1-16Nov-stats-drink-water-0.png)
-![Statistics – Read, current streak 1](S4-evidence/S4-T1-16Nov-stats-read-current1.png)
-![Diary note](S4-evidence/S4-T1-16Nov-diary-note.png)
-![Edit profile](S4-evidence/S4-T1-16Nov-edit-profile.png)
-
-### S4-T2 Create habits
-![Create habit form](S4-evidence/S4-T2-16Nov-create-habit-form.png)
-![Edit habit – Walking 5 per day](S4-evidence/S4-T2-16Nov-edit-habit-walking-5perday.png)
-![Manage habit – archive or delete](S4-evidence/S4-T2-16Nov-manage-habit-archive-delete.png)
-
-### S4-T3 Streaks and Done Y'day
-![Done Y'day – streak 1](S4-evidence/S4-T3-16Nov-doneYday-streak1.png)
-![Habit menu – Undo Y'day](S4-evidence/S4-T3-16Nov-habit-menu-undo-yday.png)
-![Read – streak 2](S4-evidence/S4-T3-16Nov-read-streak2.png)
-![Restored habit – streak kept](S4-evidence/S4-T3-16Nov-restored-streak-kept.png)
-
-### S4-T4 Achievements and pop-ups
-![Pop-up – Clean Slate](S4-evidence/S4-T4-16Nov-popup-clean-slate.png)
-![Pop-up – The Dark Knight](S4-evidence/S4-T4-16Nov-popup-dark-knight.png)
-![Pop-up – Overachiever of the Day](S4-evidence/S4-T4-16Nov-popup-overachiever.png)
-![Pop-up – I'll Be Back](S4-evidence/S4-T4-16Nov-popup-ill-be-back.png)
-![Pop-up – Perfect Day](S4-evidence/S4-T4-16Nov-popup-perfect-day.jpg)
-![Achievements list](S4-evidence/S4-T4-16Nov-achievements-list.png)
-![Archive confirm](S4-evidence/S4-T4-16Nov-archive-confirm.png)
-![Archive list](S4-evidence/S4-T4-16Nov-archive-list.png)
-![Restore confirm](S4-evidence/S4-T4-16Nov-restore-confirm.png)
-![Archive empty](S4-evidence/S4-T4-16Nov-archive-empty.png)
-
-### S4-T6 User control
-![Menu](S4-evidence/S4-T6-16Nov-menu.png)
-![Appearance – no reward toggle](S4-evidence/S4-T6-16Nov-appearance-no-reward-toggle.png)
-![Data management](S4-evidence/S4-T6-16Nov-data-management.png)
