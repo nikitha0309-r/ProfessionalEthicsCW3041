@@ -1,6 +1,6 @@
 # Section 4 – Screenshot Evidence (16 Nov 2026)
 
-DoHabit web app (dohabit.app), Google Chrome test profile. Files are named `S4-<test ID>-<date>-<what it shows>`. Full test log: [Section4_Test_Log_and_Evidence.md](Section4_Test_Log_and_Evidence.md)
+DoHabit web app (dohabit.app), Google Chrome test profile. Files are named `S4-<test ID>-<date>-<what it shows>`. Full test log: [Section4 Test Log and Evidence.md](Section4%20Test%20Log%20and%20Evidence.md)
 
 ## S4-T1 Where rewards appear
 
@@ -97,6 +97,20 @@ DoHabit web app (dohabit.app), Google Chrome test profile. Files are named `S4-<
 **S4-T4-16Nov-restore-confirm.png** – restore confirm
 
 ![restore confirm](S4-T4-16Nov-restore-confirm.png)
+
+## S4-T5 Missed-day test
+
+**S4-T5-17Nov-streak-kept-before-ticking.jpg** – 17 Nov before ticking: Walking and Meditate still show 2
+
+![streak kept before ticking](S4-T5-17Nov-streak-kept-before-ticking.jpg)
+
+**S4-T5-17Nov-home-streaks.jpg** – 17 Nov after ticking all habits
+
+![home streaks](S4-T5-17Nov-home-streaks.jpg)
+
+**S4-T5-17Nov-walking-stats.jpg** – Walking: Current 3, Longest 3, streak history 15–17 Nov
+
+![walking stats](S4-T5-17Nov-walking-stats.jpg)
 
 ## S4-T6 User control
 

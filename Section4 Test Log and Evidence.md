@@ -3,7 +3,7 @@
 *Behavioural Influence & Ethical Theories · DoHabit ethics coursework Part 2*
 
 - **App tested:** DoHabit web app ([dohabit.app](https://dohabit.app)), open-source code at [github.com/iNikAnn/DoHabit](https://github.com/iNikAnn/DoHabit)
-- **Testing started:** 16 November 2026, ~00:20 (Malaysia time)
+- **Testing started:** 16 November 2026 (updated 17 Nov), ~00:20 (Malaysia time)
 - **Browser:** Google Chrome, separate test profile
 - **Screenshots:** [Section4_Screenshots.md](Section4_Screenshots.md)
 
@@ -22,7 +22,9 @@
 **Still to do**
 
 - [ ] I Swear I Did It!: reach 5 uses of "Done Y'day" in total and screenshot the pop-up
-- [ ] Missed-day test, 17–19 Nov (plan in section 5)
+- [x] Missed-day test Day 1 (17 Nov): all habits ticked, Walking streak 3 (section 5a)
+- [ ] Missed-day test Day 2 (18 Nov): tick everything except Walking
+- [ ] Missed-day test Day 3 (19 Nov): screenshot Walking before ticking
 - [ ] Scroll the full Achievements list and screenshot the locked achievements and hints
 
 ## 2. Where streaks, badges and progress appear (S4-T1)
@@ -45,7 +47,7 @@
 | S4-T2 | Created 3 habits with different frequencies | Habits created | Walking (5/day), Read 10 mins (1/day), Drink 2 litres (1/day) created; colour and icon chosen per habit | S4-T2 screenshots |
 | S4-T3 | Tried to mark past days; used "Done Y'day", then ticked today | Can mark any past day | Only today and yesterday can be marked. "Done Y'day" marked 15 Nov (streak 1); ticking 16 Nov gave Read a 2-day streak. Archiving and restoring a habit kept its streak | S4-T3 screenshots; `toggleYesterdayStatus.ts` |
 | S4-T4 | Earned achievements (archived a habit, wrote a note after midnight, created habits, archived 5 habits, completed all habits) | Neutral, supportive congratulations | "Achievement unlocked!" modal over a dimmed screen, shown once per achievement, closed by clicking outside. Wording is humorous and in places mocks the user (see section 4) | S4-T4 screenshots; `useCheckAchievements.ts` |
-| S4-T5 | Missed-day test – in progress (17–19 Nov) | Warning or pause before reset | Expected from code: streak survives one day (yesterday counts), then Current resets to 0 with no message; Longest and history kept | `getStreaks.ts`; screenshots to add |
+| S4-T5 | Missed-day test – in progress (17–19 Nov). 17 Nov: opened the app before ticking, then completed all habits | Warning or pause before reset | 17 Nov: before ticking, Walking and Meditate still showed a 2-day streak, confirming "yesterday counts". After ticking, Walking reached Current 3 / Longest 3; Streak history recorded 15–17 Nov. Reset expected on 19 Nov | `getStreaks.ts`; S4-T5 17 Nov screenshots |
 | S4-T6 | Checked Menu, Appearance and Data Management | Option to turn rewards off | Settings cover theme, language, animations and calendar only. No option to disable streaks, achievements or pop-ups | S4-T6 screenshots |
 
 ## 4. Achievement wording (S4-T4b)
@@ -67,6 +69,14 @@
 | 17 Nov | Tick all habits; use "Done Y'day" where still available | Streaks on statistics page |
 | 18 Nov | Do **not** tick Walking; tick the others | Walking streak should still show (yesterday counts) |
 | 19 Nov | Open the app before ticking anything | Walking: Current = 0, Longest kept, no warning message. Then tick it and screenshot the new streak and streak history |
+
+## 5a. Missed-day test results so far
+
+| Date | Observation | Screenshot |
+|---|---|---|
+| 17 Nov, before ticking | Walking 2, Meditate 2, Write to do list 1 still shown although not yet done today, so the streak survives until the end of the next day | S4-T5-17Nov-streak-kept-before-ticking.jpg |
+| 17 Nov, after ticking | Walking 3, Meditate 3, Read 3, Write to do list 2, Drink 2 | S4-T5-17Nov-home-streaks.jpg |
+| 17 Nov, Walking statistics | Current 3, Longest 3, Total completions 3; Streak history shows one 3-day streak, 15/11/2026 to 17/11/2026 | S4-T5-17Nov-walking-stats.jpg |
 
 ## 6. Dark-pattern check (Gray et al., 2018) – S4-T7
 
@@ -109,6 +119,11 @@
 ![Archive list](S4-T4-16Nov-archive-list.png)
 ![Restore confirm](S4-T4-16Nov-restore-confirm.png)
 ![Archive empty](S4-T4-16Nov-archive-empty.png)
+
+### S4-T5 Missed-day test
+![17 Nov – streaks kept before ticking](S4-T5-17Nov-streak-kept-before-ticking.jpg)
+![17 Nov – home screen after ticking](S4-T5-17Nov-home-streaks.jpg)
+![17 Nov – Walking statistics](S4-T5-17Nov-walking-stats.jpg)
 
 ### S4-T6 User control
 ![Menu](S4-T6-16Nov-menu.png)
