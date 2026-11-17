@@ -2,7 +2,7 @@
 
 *Behavioural Influence & Ethical Theories · DoHabit ethics coursework Part 2*
 
-- **App tested:** DoHabit web app ([dohabit.app](https://dohabit.app)), open-source code at [github.com/iNikAnn/DoHabit](https://github.com/iNikAnn/DoHabit)
+- **App tested:** DoHabit web app ([dohabit.app](https://dohabit.app))
 - **Testing started:** 16 November 2026 (updated 17 Nov), ~00:20 (Malaysia time)
 - **Browser:** Google Chrome, separate test profile
 - **Screenshots:** [Section4_Screenshots.md](Section4_Screenshots.md)
@@ -21,7 +21,7 @@
 
 **Still to do**
 
-- [ ] I Swear I Did It!: reach 5 uses of "Done Y'day" in total and screenshot the pop-up
+- [x] I Swear I Did It!: earned after 5 uses of "Done Y'day" (17 Nov)
 - [x] Missed-day test Day 1 (17 Nov): all habits ticked, Walking streak 3 (section 5a)
 - [ ] Missed-day test Day 2 (18 Nov): tick everything except Walking
 - [ ] Missed-day test Day 3 (19 Nov): screenshot Walking before ticking
@@ -58,9 +58,10 @@
 | The Dark Knight | Writing a note after midnight | "You wrote a note after 00:00. What's keeping you awake? Are you protecting Gotham, or just overthinking again?" |
 | Overachiever of the Day! | Creating 3 habits in one day | "Wow, three habits in one day! Who knew you had this much free time? Procrastination looks good on you!" |
 | I'll Be Back | Archiving 5 habits | "You've archived 5 habits — because why actually do them when you can just collect?" |
+| I Swear I Did It! | Using "Done Y'day" 5 times | "You've officially mastered the art of pretending to be productive — five times!" |
 | Perfect Day! | Completing every habit (3 or more) in one day | "You've got 3 or more habits, and you've accomplished every single one!" (neutral and positive) |
 
-**Why it matters:** creating habits is exactly what the app wants users to do, yet the reward calls them a procrastinator. Archiving is a legitimate way to manage goals, yet it is framed as laziness. Relevant to SE Code 4.01 (human values), Kant (respect for users as ends) and Mill (humour for some users, discouragement for others). Perfect Day shows that not every reward mocks the user.
+**Why it matters:** creating habits is exactly what the app wants users to do, yet the reward calls them a procrastinator. Archiving is a legitimate way to manage goals, yet it is framed as laziness. "Done Y'day" is the app's only flexibility for a missed day, yet using it is framed as faking productivity. Relevant to SE Code 4.01 (human values), Kant (respect for users as ends) and Mill (humour for some users, discouragement for others). Perfect Day shows that not every reward mocks the user.
 
 ## 5. Missed-day test plan (S4-T5)
 
@@ -74,9 +75,9 @@
 
 | Date | Observation | Screenshot |
 |---|---|---|
-| 17 Nov, before ticking | Walking 2, Meditate 2, Write to do list 1 still shown although not yet done today, so the streak survives until the end of the next day | S4-T5-17Nov-streak-kept-before-ticking.jpg |
-| 17 Nov, after ticking | Walking 3, Meditate 3, Read 3, Write to do list 2, Drink 2 | S4-T5-17Nov-home-streaks.jpg |
-| 17 Nov, Walking statistics | Current 3, Longest 3, Total completions 3; Streak history shows one 3-day streak, 15/11/2026 to 17/11/2026 | S4-T5-17Nov-walking-stats.jpg |
+| 17 Nov, before ticking | Walking 2, Meditate 2, Write to do list 1 still shown although not yet done today, so the streak survives until the end of the next day | 17th nov streak kept before ticking.jpg |
+| 17 Nov, after ticking | Walking 3, Meditate 3, Read 3, Write to do list 2, Drink 2 | 17th nov home streaks.jpeg |
+| 17 Nov, Walking statistics | Current 3, Longest 3, Total completions 3; Streak history shows one 3-day streak, 15/11/2026 to 17/11/2026 | 17th nov walking stats.jpg |
 
 ## 6. Dark-pattern check (Gray et al., 2018) – S4-T7
 
@@ -121,9 +122,9 @@
 ![Archive empty](S4-T4-16Nov-archive-empty.png)
 
 ### S4-T5 Missed-day test
-![17 Nov – streaks kept before ticking](S4-T5-17Nov-streak-kept-before-ticking.jpg)
-![17 Nov – home screen after ticking](S4-T5-17Nov-home-streaks.jpg)
-![17 Nov – Walking statistics](S4-T5-17Nov-walking-stats.jpg)
+![17 Nov – streaks kept before ticking](17th%20nov%20streak%20kept%20before%20ticking.jpg)
+![17 Nov – home screen after ticking](17th%20nov%20home%20streaks.jpeg)
+![17 Nov – Walking statistics](17th%20nov%20walking%20stats.jpg)
 
 ### S4-T6 User control
 ![Menu](S4-T6-16Nov-menu.png)
