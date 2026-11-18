@@ -3,7 +3,7 @@
 *Behavioural Influence & Ethical Theories · DoHabit ethics coursework Part 2*
 
 - **App tested:** DoHabit web app ([dohabit.app](https://dohabit.app))
-- **Testing started:** 16 November 2026 (updated 17 Nov), ~00:20 (Malaysia time)
+- **Testing started:** 16 November 2026 (updated 18 Nov), ~00:20 (Malaysia time)
 - **Browser:** Google Chrome, separate test profile
 - **Screenshots:** [Section4_Screenshots.md](Section4_Screenshots.md)
 
@@ -23,7 +23,7 @@
 
 - [x] I Swear I Did It!: earned after 5 uses of "Done Y'day" (17 Nov)
 - [x] Missed-day test Day 1 (17 Nov): all habits ticked, Walking streak 3 (section 5a)
-- [ ] Missed-day test Day 2 (18 Nov): tick everything except Walking
+- [x] Missed-day test Day 2 (18 Nov): everything ticked except Walking; Walking streak still 3
 - [ ] Missed-day test Day 3 (19 Nov): screenshot Walking before ticking
 - [ ] Scroll the full Achievements list and screenshot the locked achievements and hints
 
@@ -47,7 +47,7 @@
 | S4-T2 | Created 3 habits with different frequencies | Habits created | Walking (5/day), Read 10 mins (1/day), Drink 2 litres (1/day) created; colour and icon chosen per habit | S4-T2 screenshots |
 | S4-T3 | Tried to mark past days; used "Done Y'day", then ticked today | Can mark any past day | Only today and yesterday can be marked. "Done Y'day" marked 15 Nov (streak 1); ticking 16 Nov gave Read a 2-day streak. Archiving and restoring a habit kept its streak | S4-T3 screenshots; `toggleYesterdayStatus.ts` |
 | S4-T4 | Earned achievements (archived a habit, wrote a note after midnight, created habits, archived 5 habits, completed all habits) | Neutral, supportive congratulations | "Achievement unlocked!" modal over a dimmed screen, shown once per achievement, closed by clicking outside. Wording is humorous and in places mocks the user (see section 4) | S4-T4 screenshots; `useCheckAchievements.ts` |
-| S4-T5 | Missed-day test – in progress (17–19 Nov). 17 Nov: opened the app before ticking, then completed all habits | Warning or pause before reset | 17 Nov: before ticking, Walking and Meditate still showed a 2-day streak, confirming "yesterday counts". After ticking, Walking reached Current 3 / Longest 3; Streak history recorded 15–17 Nov. Reset expected on 19 Nov | `getStreaks.ts`; S4-T5 17 Nov screenshots |
+| S4-T5 | Missed-day test – in progress (17–19 Nov). 17 Nov: opened the app before ticking, then completed all habits | Warning or pause before reset | 17 Nov: before ticking, Walking and Meditate still showed a 2-day streak, confirming "yesterday counts". After ticking, Walking reached Current 3 / Longest 3; Streak history recorded 15–17 Nov. 18 Nov: Walking not ticked, streak still shown as 3 with no warning. Reset expected on 19 Nov | `getStreaks.ts`; S4-T5 17 Nov screenshots |
 | S4-T6 | Checked Menu, Appearance and Data Management | Option to turn rewards off | Settings cover theme, language, animations and calendar only. No option to disable streaks, achievements or pop-ups | S4-T6 screenshots |
 
 ## 4. Achievement wording (S4-T4b)
@@ -78,6 +78,8 @@
 | 17 Nov, before ticking | Walking 2, Meditate 2, Write to do list 1 still shown although not yet done today, so the streak survives until the end of the next day | 17th nov streak kept before ticking.jpg |
 | 17 Nov, after ticking | Walking 3, Meditate 3, Read 3, Write to do list 2, Drink 2 | 17th nov home streaks.jpeg |
 | 17 Nov, Walking statistics | Current 3, Longest 3, Total completions 3; Streak history shows one 3-day streak, 15/11/2026 to 17/11/2026 | 17th nov walking stats.jpg |
+| 18 Nov, Walking not ticked | All other habits ticked. Walking's 18 Nov box is empty, yet its streak still shows 3 and no warning appears | 18th_nov_walking_not_ticked.png |
+| 18 Nov, Walking statistics | Current 3, Longest 3; Streak history still 15/11/2026 to 17/11/2026 | 18th_nov_walking_stats.png |
 
 ## 6. Dark-pattern check (Gray et al., 2018) – S4-T7
 
@@ -125,6 +127,9 @@
 ![17 Nov – streaks kept before ticking](17th%20nov%20streak%20kept%20before%20ticking.jpg)
 ![17 Nov – home screen after ticking](17th%20nov%20home%20streaks.jpeg)
 ![17 Nov – Walking statistics](17th%20nov%20walking%20stats.jpg)
+
+![18 Nov – Walking not ticked, streak still 3](18th_nov_walking_not_ticked.png)
+![18 Nov – Walking statistics](18th_nov_walking_stats.png)
 
 ### S4-T6 User control
 ![Menu](S4-T6-16Nov-menu.png)

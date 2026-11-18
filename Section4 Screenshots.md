@@ -112,6 +112,14 @@ DoHabit web app (dohabit.app), Google Chrome test profile. Files are named `S4-<
 
 ![walking stats](17th%20nov%20walking%20stats.jpg)
 
+**18th_nov_walking_not_ticked.png** – 18 Nov: Walking not ticked, streak still 3
+
+![walking not ticked](18th_nov_walking_not_ticked.png)
+
+**18th_nov_walking_stats.png** – 18 Nov: Walking Current 3, Longest 3
+
+![walking stats 18 Nov](18th_nov_walking_stats.png)
+
 ## S4-T6 User control
 
 **S4-T6-16Nov-appearance-no-reward-toggle.png** – appearance no reward toggle
