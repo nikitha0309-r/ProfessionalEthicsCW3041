@@ -120,6 +120,18 @@ DoHabit web app (dohabit.app), Google Chrome test profile. Files are named `S4-<
 
 ![walking stats 18 Nov](18th_nov_walking_stats.png)
 
+**19th_nov_walking_reset_home.png** – 19 Nov before ticking: Walking reset to 0, no warning
+
+![walking reset home](19th_nov_walking_reset_home.png)
+
+**19th_nov_walking_reset_stats.png** – 19 Nov: Current 0, Longest 3, history kept
+
+![walking reset stats](19th_nov_walking_reset_stats.png)
+
+**19th_nov_walking_after_doneday.png** – 19 Nov: after Done Y'day, streak back to 4
+
+![after done yday](19th_nov_walking_after_doneday.png)
+
 ## S4-T6 User control
 
 **S4-T6-16Nov-appearance-no-reward-toggle.png** – appearance no reward toggle

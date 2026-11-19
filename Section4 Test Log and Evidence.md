@@ -3,7 +3,7 @@
 *Behavioural Influence & Ethical Theories · DoHabit ethics coursework Part 2*
 
 - **App tested:** DoHabit web app ([dohabit.app](https://dohabit.app))
-- **Testing started:** 16 November 2026 (updated 18 Nov), ~00:20 (Malaysia time)
+- **Testing started:** 16 November 2026 (updated 19 Nov), ~00:20 (Malaysia time)
 - **Browser:** Google Chrome, separate test profile
 - **Screenshots:** [Section4_Screenshots.md](Section4_Screenshots.md)
 
@@ -24,7 +24,7 @@
 - [x] I Swear I Did It!: earned after 5 uses of "Done Y'day" (17 Nov)
 - [x] Missed-day test Day 1 (17 Nov): all habits ticked, Walking streak 3 (section 5a)
 - [x] Missed-day test Day 2 (18 Nov): everything ticked except Walking; Walking streak still 3
-- [ ] Missed-day test Day 3 (19 Nov): screenshot Walking before ticking
+- [x] Missed-day test Day 3 (19 Nov): Walking reset to 0, Longest kept at 3, no warning; "Done Y'day" restored the streak to 4
 - [ ] Scroll the full Achievements list and screenshot the locked achievements and hints
 
 ## 2. Where streaks, badges and progress appear (S4-T1)
@@ -47,7 +47,7 @@
 | S4-T2 | Created 3 habits with different frequencies | Habits created | Walking (5/day), Read 10 mins (1/day), Drink 2 litres (1/day) created; colour and icon chosen per habit | S4-T2 screenshots |
 | S4-T3 | Tried to mark past days; used "Done Y'day", then ticked today | Can mark any past day | Only today and yesterday can be marked. "Done Y'day" marked 15 Nov (streak 1); ticking 16 Nov gave Read a 2-day streak. Archiving and restoring a habit kept its streak | S4-T3 screenshots; `toggleYesterdayStatus.ts` |
 | S4-T4 | Earned achievements (archived a habit, wrote a note after midnight, created habits, archived 5 habits, completed all habits) | Neutral, supportive congratulations | "Achievement unlocked!" modal over a dimmed screen, shown once per achievement, closed by clicking outside. Wording is humorous and in places mocks the user (see section 4) | S4-T4 screenshots; `useCheckAchievements.ts` |
-| S4-T5 | Missed-day test – in progress (17–19 Nov). 17 Nov: opened the app before ticking, then completed all habits | Warning or pause before reset | 17 Nov: before ticking, Walking and Meditate still showed a 2-day streak, confirming "yesterday counts". After ticking, Walking reached Current 3 / Longest 3; Streak history recorded 15–17 Nov. 18 Nov: Walking not ticked, streak still shown as 3 with no warning. Reset expected on 19 Nov | `getStreaks.ts`; S4-T5 17 Nov screenshots |
+| S4-T5 | Skipped Walking on 18 Nov, opened the app on 19 Nov before ticking anything, then used "Done Y'day" | Warning or pause before reset | 17 Nov: streak shown before ticking (yesterday counts). 18 Nov: Walking not ticked, streak still 3, no warning. 19 Nov: Walking Current reset to 0 with no message or warning; Longest stayed 3 and streak history (15–17 Nov) was kept. Using "Done Y'day" marked 18 Nov and the streak came back as 4 | `getStreaks.ts`; S4-T5 17–19 Nov screenshots |
 | S4-T6 | Checked Menu, Appearance and Data Management | Option to turn rewards off | Settings cover theme, language, animations and calendar only. No option to disable streaks, achievements or pop-ups | S4-T6 screenshots |
 
 ## 4. Achievement wording (S4-T4b)
@@ -80,6 +80,11 @@
 | 17 Nov, Walking statistics | Current 3, Longest 3, Total completions 3; Streak history shows one 3-day streak, 15/11/2026 to 17/11/2026 | 17th nov walking stats.jpg |
 | 18 Nov, Walking not ticked | All other habits ticked. Walking's 18 Nov box is empty, yet its streak still shows 3 and no warning appears | 18th_nov_walking_not_ticked.png |
 | 18 Nov, Walking statistics | Current 3, Longest 3; Streak history still 15/11/2026 to 17/11/2026 | 18th_nov_walking_stats.png |
+| 19 Nov, before ticking | Walking streak shows 0; no message or warning when the app opened | 19th_nov_walking_reset_home.png |
+| 19 Nov, Walking statistics | Current 0, Longest 3; Streak history still shows the 3-day streak 15/11/2026 to 17/11/2026 | 19th_nov_walking_reset_stats.png |
+| 19 Nov, after "Done Y'day" | Marking 18 Nov through "Done Y'day" restored the streak to 4 | 19th_nov_walking_after_doneday.png |
+
+**Conclusion:** a missed day is forgiven only if the user fixes it the next day with "Done Y'day". After that, the current streak silently resets to 0, while the longest streak and history are kept. The app gives no warning before the reset and never explains the rule.
 
 ## 6. Dark-pattern check (Gray et al., 2018) – S4-T7
 
@@ -87,7 +92,7 @@
 |---|---|
 | Nagging | Absent – each achievement pop-up appears only once |
 | Obstruction | Partly – rewards cannot be turned off at all, but nothing is hidden |
-| Sneaking | Unresolved – the streak rule (yesterday counts, then reset) is not explained in the app |
+| Sneaking | Partly – confirmed on 19 Nov: the streak resets to 0 with no warning, and the "yesterday counts" rule is never explained in the app |
 | Interface interference | Partly – mocking wording on some achievements |
 | Forced action | Absent – the pop-up dims the screen but closes by clicking outside it |
 
@@ -130,6 +135,10 @@
 
 ![18 Nov – Walking not ticked, streak still 3](18th_nov_walking_not_ticked.png)
 ![18 Nov – Walking statistics](18th_nov_walking_stats.png)
+
+![19 Nov – Walking reset to 0 (home)](19th_nov_walking_reset_home.png)
+![19 Nov – Walking statistics after reset](19th_nov_walking_reset_stats.png)
+![19 Nov – after Done Y'day, streak 4](19th_nov_walking_after_doneday.png)
 
 ### S4-T6 User control
 ![Menu](S4-T6-16Nov-menu.png)
