@@ -9,21 +9,21 @@ DoHabit is a habit tracking tool designed to help users work on long-term consis
 # Stakeholder Analysis
 Direct stakeholders:
 - users (people who want to build habits)
-- developers
+- developer
 
 Indirect stakeholders:
 - friends and family
 - employers
 
 ## Overview of Stakeholders
-DoHabit's direct stakeholders include its users and its devlopers. People indirectly affected by the software include users' friends, families and employers who may be impacted by successfully-built postitive habits, particularly those related to self-improvement or work.
+DoHabit's direct stakeholders include its users and its devloper. People indirectly affected by the software include users' friends, families and employers who may be impacted by successfully-built postitive habits, particularly those related to self-improvement or work.
 
 ## Users
 The people most affected by the software are the people using it every day to build habits. For those committed to using the app, its features, if affective, are likely to have a consistent impact on their daily lives. The whole premise of the app is to instill behaviour changes in its users (with the intention of inducing long-term changes in their attitudes towards the pursuit of personal goals).
 User behaviours are affected primarilly through the use of streaks and reward pop-ups, both of which are ethically-debateable methods of maintaining consistent user engagement; for some, they may be positive tools for working towards long-term goals whereas for others they may become points of obsession, leading to a mentally unhealthy relationship with the app.
 
 ## Developers
-
+The other person directly impacted by the software is its developer. While the software has not been built for profit, they have a responsibility to ensure the app does not utilise exploitative user engagement methods and that user data remains private, protected and secure.
 
 ## Users' Friends and Family
 
