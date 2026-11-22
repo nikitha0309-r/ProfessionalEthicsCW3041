@@ -23,3 +23,5 @@ This could be a good or bad thing; on one hand, a user may have used DoHabit to 
 
 ## Users' Employer(s)
 There are two main ways DoHabit may have a noteworthy affect on a user's employer. In one case, the methods used by the app may be effective, potentially leading to an increase in productivity or an improvement in the user's attitude towards their work, depending on the nature of the habit or the positive mental effects of achieving goals, leaving a good impression. In the other case, however, a user could, as previously decribed, become obsessed with the app, potentially prioritising habits over completing work or simply experiencing a negative change in their mental health, causing decreased productivity. In this case, the user's employer's view of them may be negatively influenced.
+
+# NEED TO ADD EVIDENCE OF EFFECTS FROM/ON STAKEHOLDERS
